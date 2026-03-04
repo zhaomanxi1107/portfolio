@@ -11,19 +11,36 @@
       <input class="tab" type="radio" name="tab" id="tab-about" checked />
       <input class="tab" type="radio" name="tab" id="tab-work" />
       <input class="tab" type="radio" name="tab" id="tab-more" />
+      <input class="tab" type="radio" name="tab" id="tab-contact" />
 
       <aside class="sidebar">
         <div class="profile">
-          <div class="avatar" aria-label="头像（占位）">
-            <span>ZM</span>
+          <div class="avatar">
+            <img src="images/profile.jpg" alt="赵曼希" />
           </div>
           <div class="name">赵曼希</div>
+          <div class="role">
+            UI/UX設計師 <span class="role-sep">|</span> 網頁設計師
+          </div>
         </div>
 
         <nav class="nav" aria-label="侧边栏导航">
-          <label for="tab-about">关于我</label>
-          <label for="tab-work">我的作品</label>
-          <label for="tab-more">了解更多</label>
+          <label for="tab-about">
+            <span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g><path fill="currentColor" d="m12.6074 3.2041 10.5 8 -1.2129 1.5918 -1.8935 -1.4434V21H13v-6h-2v6H4.00098v-9.6475l-1.89356 1.4434 -1.212889 -1.5918 10.499969 -8 0.6065 -0.46094zm-6.60642 6.625V19H9v-6h6v6h3.001V9.8291l-6 -4.57129z"/></g></svg></span>
+            首頁
+          </label>
+          <label for="tab-work">
+            <span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g><path fill="currentColor" d="m7.20703 18.207 -4 4 -1.41406 -1.414 4 -4zm5.99997 1 -3 3 -1.41403 -1.414 3.00003 -3zm1.7168 -16.59079 1.5088 3.63574 3.8985 0.31836 2.3535 0.19141 -1.7754 1.55664 -2.9727 2.60544 0.8867 3.8516 0.5352 2.3271 -2.0332 -1.2509L14 13.8066l-3.3252 2.045 -2.0332 1.2509 0.53516 -2.3271 0.88574 -3.8516 -2.97168 -2.60544 -1.77539 -1.55664 2.35352 -0.19141 3.89745 -0.31836 1.5098 -3.63574L14 0.391602zM6.20703 12.207l-3 3 -1.41406 -1.414 3 -3zm6.97267 -4.62399 -0.2334 0.56445 -0.6084 0.04883 -2.1533 0.1748 1.6455 1.44336 0.4492 0.39455 -0.1338 0.582 -0.4853 2.1065 1.8164 -1.1163L14 11.459l0.5234 0.3222 1.8155 1.1163 -0.4844 -2.1065 -0.1338 -0.582 0.4492 -0.39455 1.6446 -1.44336 -2.1524 -0.1748 -0.6084 -0.04883 -0.2334 -0.56445L14 5.60742z"/></g></svg></span>
+            我的作品
+          </label>
+          <label for="tab-more">
+            <span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g><path fill="currentColor" d="M20 8.08594V22H4V2h9.9141zM6 20h12V8.91406L13.0859 4H6zm10 -2H7.5v-2H16zm0 -3.5H7.5v-2H16zm-5.1289 -5.64941c1.7808 0.00007 3.0859 0.69435 3.3125 0.9873v1.00001H7.55859V9.83789c0.22657 -0.29297 1.53154 -0.9873 3.31251 -0.9873m0 -3.3125c0.4636 0.00003 0.8556 0.16032 1.1758 0.48046 0.3201 0.32016 0.4804 0.71215 0.4804 1.17579s-0.1603 0.85563 -0.4804 1.17578c-0.3202 0.32014 -0.7122 0.48043 -1.1758 0.48047 -0.4636 0 -0.8556 -0.16039 -1.17579 -0.48047 -0.32014 -0.32015 -0.48043 -0.71214 -0.48047 -1.17578 0 -0.46371 0.16029 -0.85561 0.48047 -1.17579 0.32019 -0.32018 0.71209 -0.48046 1.17579 -0.48046"/></g></svg></span>
+            我的經歷
+          </label>
+          <label for="tab-contact">
+            <span class="nav-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><g><path fill="currentColor" d="M20.5107 13.4668c0.508 0 0.9658 0.1423 1.3721 0.4268 0.4061 0.2843 0.711 0.6599 0.9141 1.1269 0.2032 0.4673 0.2539 0.9505 0.1523 1.4483 -0.1016 0.4976 -0.3255 0.9192 -0.6709 1.2646L18.0117 22l-4.2666 -4.2666c-0.3453 -0.3656 -0.5737 -0.7973 -0.6855 -1.2949 -0.1118 -0.4978 -0.0665 -0.981 0.1367 -1.4483 0.2032 -0.4672 0.5132 -0.838 0.9297 -1.1123 0.4164 -0.2742 0.8788 -0.4111 1.3867 -0.4111s0.9603 0.1569 1.3564 0.4717c0.3962 0.3149 0.7769 0.6458 1.1426 0.9912 0.3454 -0.3454 0.7216 -0.6763 1.1279 -0.9912 0.4063 -0.3148 0.8634 -0.4716 1.3711 -0.4717M18 11h-2V6.66699L9.9707 9.88281 9.5 10.1338l-0.4707 -0.25099L3 6.66699V13h8v2H1V2h17zM3 4.39844l6.5 3.46679L16 4.39844V4H3z"/></g></svg></span>
+            聯繫我
+          </label>
         </nav>
       </aside>
 
@@ -31,48 +48,41 @@
         <section class="page" data-page="about">
           <div class="hero">
             <div>
-              <h1 class="hero-title">Webflow Development Subscription Services</h1>
-              <p class="hero-sub">
-                Eliminate the hassle of dealing with developers lacking design sensibility, and
-                trust in someone who possesses the expertise, passion, and vision to realize your
-                ideas as you’ve imagined them.
-              </p>
+              <h1 class="hero-title">專注UI/UX與網頁設計，打造兼具體驗與商業價值的作品</h1>
             </div>
-            <a class="cta" href="#">Get in touch →</a>
+            <a class="cta" href="#">聯繫我 →</a>
           </div>
 
           <div class="grid">
             <div class="col">
               <div class="card stat">
                 <p class="big">100+</p>
-                <p class="small">Completed Projects</p>
+                <p class="small">網頁項目</p>
               </div>
               <div class="card stat">
-                <p class="big">50+</p>
-                <p class="small">Satisfied Clients</p>
+                <p class="big">5+</p>
+                <p class="small">完整UI/UX專案</p>
               </div>
             </div>
 
             <div class="col">
               <div class="card stat">
-                <p class="big big--expert">Webflow Expert</p>
-                <p class="small">Design · Build · Iterate</p>
+                <p class="big big--expert">設計師</p>
+                <p class="small">Cursor | V0 | Figma | Photoshop</p>
               </div>
               <div class="card stat">
-                <p class="big">6<span class="big-suffix"> Years</span></p>
-                <p class="small">Design Experience</p>
+                <p class="big">2<span class="big-suffix"> 年</span></p>
+                <p class="small">設計經驗</p>
               </div>
             </div>
 
             <div class="col">
               <div class="card big-card">
-                <h2>Your ultimate webflow partner</h2>
+                <h2>關於我</h2>
                 <p>
-                  Eliminate the hassle of dealing with developers lacking design sensibility, and
-                  trust in someone who possesses the expertise, passion, and vision to realize your
-                  ideas as you’ve imagined them.
+                  擁有Web3及AI平台完整專案經驗，能獨立負責從產品規劃、介面設計到網頁落地的全流程執行。擅長優化使用者體驗與視覺呈現，並結合設計與前端技術實現專案快速迭代，具備跨團隊協作與獨立交付能力。
                 </p>
-                <a href="#">Get in touch →</a>
+                <a class="btn-resume" href="#">我的簡歷</a>
               </div>
             </div>
           </div>
@@ -82,12 +92,233 @@
           <div class="hero">
             <div>
               <h1 class="hero-title">我的作品</h1>
-              <p class="hero-sub">这里可以放你的项目列表、截图或作品链接（后续我可以按你的内容排版）。</p>
             </div>
           </div>
-          <div class="card card--narrow">
-            <p class="p-muted">示例：作品 A / 作品 B / 作品 C（占位）</p>
-          </div>
+
+          <section class="projects" aria-label="作品列表">
+            <div class="projects-grid">
+              <article class="project-card">
+                <div class="project-thumb">
+                  <img src="images/image-1.png" alt="Mobeldesignmuseum 專案封面" />
+                </div>
+                <div class="project-meta">
+                  <div class="project-tags">
+                    <span class="tag">Web3 Product Design</span>
+                    <span class="tag">Exchange Platform</span>
+                    <span class="tag">User Dashboard</span>
+                    <span class="tag">Figma</span>
+                  </div>
+                  <div class="project-title-row">
+                    <span class="project-title">Coinoala</span>
+                    <span class="project-link-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="-0.5 -0.5 16 16"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="feather feather-external-link"
+                        aria-hidden="true"
+                      >
+                        <path
+                          d="M11.25 8.125v3.75a1.25 1.25 0 0 1 -1.25 1.25H3.125a1.25 1.25 0 0 1 -1.25 -1.25V5a1.25 1.25 0 0 1 1.25 -1.25h3.75"
+                          stroke-width="1"
+                        ></path>
+                        <path d="m9.375 1.875 3.75 0 0 3.75" stroke-width="1"></path>
+                        <path d="M6.25 8.75 13.125 1.875" stroke-width="1"></path>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-thumb">
+                  <img src="images/image-1.png" alt="Mobeldesignmuseum 專案封面" />
+                </div>
+                <div class="project-meta">
+                  <div class="project-tags">
+                    <span class="tag">Adobe XD</span>
+                    <span class="tag">Webflow</span>
+                    <span class="tag">Notion</span>
+                    <span class="tag">FS attributes</span>
+                    <span class="tag">jQuery</span>
+                  </div>
+                  <div class="project-title-row">
+                    <span class="project-title">Mobeldesignmuseum</span>
+                    <span class="project-link-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="-0.5 -0.5 16 16"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="feather feather-external-link"
+                        aria-hidden="true"
+                      >
+                        <path
+                          d="M11.25 8.125v3.75a1.25 1.25 0 0 1 -1.25 1.25H3.125a1.25 1.25 0 0 1 -1.25 -1.25V5a1.25 1.25 0 0 1 1.25 -1.25h3.75"
+                          stroke-width="1"
+                        ></path>
+                        <path d="m9.375 1.875 3.75 0 0 3.75" stroke-width="1"></path>
+                        <path d="M6.25 8.75 13.125 1.875" stroke-width="1"></path>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-thumb">
+                  <img src="images/image-1.png" alt="Mobeldesignmuseum 專案封面" />
+                </div>
+                <div class="project-meta">
+                  <div class="project-tags">
+                    <span class="tag">Adobe XD</span>
+                    <span class="tag">Webflow</span>
+                    <span class="tag">Notion</span>
+                    <span class="tag">FS attributes</span>
+                    <span class="tag">jQuery</span>
+                  </div>
+                  <div class="project-title-row">
+                    <span class="project-title">Mobeldesignmuseum</span>
+                    <span class="project-link-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="-0.5 -0.5 16 16"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="feather feather-external-link"
+                        aria-hidden="true"
+                      >
+                        <path
+                          d="M11.25 8.125v3.75a1.25 1.25 0 0 1 -1.25 1.25H3.125a1.25 1.25 0 0 1 -1.25 -1.25V5a1.25 1.25 0 0 1 1.25 -1.25h3.75"
+                          stroke-width="1"
+                        ></path>
+                        <path d="m9.375 1.875 3.75 0 0 3.75" stroke-width="1"></path>
+                        <path d="M6.25 8.75 13.125 1.875" stroke-width="1"></path>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-thumb">
+                  <img src="images/image-1.png" alt="Mobeldesignmuseum 專案封面" />
+                </div>
+                <div class="project-meta">
+                  <div class="project-tags">
+                    <span class="tag">Adobe XD</span>
+                    <span class="tag">Webflow</span>
+                    <span class="tag">Notion</span>
+                    <span class="tag">FS attributes</span>
+                    <span class="tag">jQuery</span>
+                  </div>
+                  <div class="project-title-row">
+                    <span class="project-title">Mobeldesignmuseum</span>
+                    <span class="project-link-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="-0.5 -0.5 16 16"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="feather feather-external-link"
+                        aria-hidden="true"
+                      >
+                        <path
+                          d="M11.25 8.125v3.75a1.25 1.25 0 0 1 -1.25 1.25H3.125a1.25 1.25 0 0 1 -1.25 -1.25V5a1.25 1.25 0 0 1 1.25 -1.25h3.75"
+                          stroke-width="1"
+                        ></path>
+                        <path d="m9.375 1.875 3.75 0 0 3.75" stroke-width="1"></path>
+                        <path d="M6.25 8.75 13.125 1.875" stroke-width="1"></path>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-thumb">
+                  <img src="images/image-1.png" alt="Mobeldesignmuseum 專案封面" />
+                </div>
+                <div class="project-meta">
+                  <div class="project-tags">
+                    <span class="tag">Adobe XD</span>
+                    <span class="tag">Webflow</span>
+                    <span class="tag">Notion</span>
+                    <span class="tag">FS attributes</span>
+                    <span class="tag">jQuery</span>
+                  </div>
+                  <div class="project-title-row">
+                    <span class="project-title">Mobeldesignmuseum</span>
+                    <span class="project-link-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="-0.5 -0.5 16 16"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="feather feather-external-link"
+                        aria-hidden="true"
+                      >
+                        <path
+                          d="M11.25 8.125v3.75a1.25 1.25 0 0 1 -1.25 1.25H3.125a1.25 1.25 0 0 1 -1.25 -1.25V5a1.25 1.25 0 0 1 1.25 -1.25h3.75"
+                          stroke-width="1"
+                        ></path>
+                        <path d="m9.375 1.875 3.75 0 0 3.75" stroke-width="1"></path>
+                        <path d="M6.25 8.75 13.125 1.875" stroke-width="1"></path>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-thumb">
+                  <img src="images/image-1.png" alt="Mobeldesignmuseum 專案封面" />
+                </div>
+                <div class="project-meta">
+                  <div class="project-tags">
+                    <span class="tag">Adobe XD</span>
+                    <span class="tag">Webflow</span>
+                    <span class="tag">Notion</span>
+                    <span class="tag">FS attributes</span>
+                    <span class="tag">jQuery</span>
+                  </div>
+                  <div class="project-title-row">
+                    <span class="project-title">Mobeldesignmuseum</span>
+                    <span class="project-link-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="-0.5 -0.5 16 16"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="feather feather-external-link"
+                        aria-hidden="true"
+                      >
+                        <path
+                          d="M11.25 8.125v3.75a1.25 1.25 0 0 1 -1.25 1.25H3.125a1.25 1.25 0 0 1 -1.25 -1.25V5a1.25 1.25 0 0 1 1.25 -1.25h3.75"
+                          stroke-width="1"
+                        ></path>
+                        <path d="m9.375 1.875 3.75 0 0 3.75" stroke-width="1"></path>
+                        <path d="M6.25 8.75 13.125 1.875" stroke-width="1"></path>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
         </section>
 
         <section class="page" data-page="more">
@@ -99,6 +330,25 @@
           </div>
           <div class="card card--narrow">
             <p class="p-muted">Email / 微信 / GitHub / 个人网站（占位）</p>
+          </div>
+        </section>
+
+        <section class="page" data-page="contact">
+          <div class="hero">
+            <div>
+              <h1 class="hero-title">聯繫我</h1>
+              <p class="hero-sub">
+                想要合作一個新的網站項目、視覺改版，或只是想更深入了解我的工作方式，都可以透過下面的方式聯繫我。
+              </p>
+            </div>
+          </div>
+          <div class="card card--narrow">
+            <p class="p-muted">
+              Email：yourmail@example.com<br />
+              Behance / Dribbble / Instagram：@yourhandle<br />
+              也可以簡單描述你的品牌、目標族群與預算範圍，我會在 1–2
+              個工作日內回覆，並給出適合的規劃建議。
+            </p>
           </div>
         </section>
       </main>
