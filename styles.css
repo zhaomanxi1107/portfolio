@@ -143,7 +143,6 @@ body.is-loading .page[data-page="about"] .hero,
 body.is-loading .page[data-page="about"] .grid,
 body.is-loading .page[data-page="work"] .hero,
 body.is-loading .page[data-page="work"] .projects-grid .project-card-link,
-body.is-loading .page[data-page="work"] .projects-grid .project-card-wrap,
 body.is-loading .page[data-page="more"] .hero,
 body.is-loading .page[data-page="more"] .timeline,
 body.is-loading .page[data-page="contact"] .hero,
@@ -336,7 +335,7 @@ body.is-loading .timeline-item {
   transform: translateY(14px) scale(0.99);
   animation: page-hero-in 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
-/* 作品頁改為三行依次出現 */
+/* 作品頁卡片依次出現（兩欄網格，按行分組延遲） */
 .page[data-page="work"] .projects-grid .project-card-link {
   opacity: 0;
   transform: translateY(12px) scale(0.98);
@@ -345,13 +344,13 @@ body.is-loading .timeline-item {
 .page[data-page="work"] .projects-grid .project-card-link:nth-child(1),
 .page[data-page="work"] .projects-grid .project-card-link:nth-child(2) { animation-delay: 0.12s; }
 .page[data-page="work"] .projects-grid .project-card-link:nth-child(3),
-.page[data-page="work"] .projects-grid .project-card-link:nth-child(4) { animation-delay: 0.32s; }
-.page[data-page="work"] .projects-grid .project-card-link:nth-child(5) { animation-delay: 0.52s; }
-.page[data-page="work"] .projects-grid .project-card-wrap {
-  opacity: 0;
-  transform: translateY(12px) scale(0.98);
-  animation: work-card-in 0.5s cubic-bezier(0.16, 1, 0.3, 1) 0.52s forwards;
-}
+.page[data-page="work"] .projects-grid .project-card-link:nth-child(4) { animation-delay: 0.22s; }
+.page[data-page="work"] .projects-grid .project-card-link:nth-child(5),
+.page[data-page="work"] .projects-grid .project-card-link:nth-child(6) { animation-delay: 0.32s; }
+.page[data-page="work"] .projects-grid .project-card-link:nth-child(7),
+.page[data-page="work"] .projects-grid .project-card-link:nth-child(8) { animation-delay: 0.42s; }
+.page[data-page="work"] .projects-grid .project-card-link:nth-child(9),
+.page[data-page="work"] .projects-grid .project-card-link:nth-child(10) { animation-delay: 0.52s; }
 @keyframes work-card-in {
   from {
     opacity: 0;
